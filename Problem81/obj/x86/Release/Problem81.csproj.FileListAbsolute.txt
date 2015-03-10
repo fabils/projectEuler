@@ -1,0 +1,8 @@
+C:\Users\Fabiana\Documents\Visual Studio 2010\Projects\Problem81\Problem81\bin\Release\Problem81.exe.manifest
+C:\Users\Fabiana\Documents\Visual Studio 2010\Projects\Problem81\Problem81\bin\Release\Problem81.application
+C:\Users\Fabiana\Documents\Visual Studio 2010\Projects\Problem81\Problem81\bin\Release\Problem81.exe
+C:\Users\Fabiana\Documents\Visual Studio 2010\Projects\Problem81\Problem81\bin\Release\Problem81.pdb
+C:\Users\Fabiana\Documents\Visual Studio 2010\Projects\Problem81\Problem81\obj\x86\Release\Problem81.exe.manifest
+C:\Users\Fabiana\Documents\Visual Studio 2010\Projects\Problem81\Problem81\obj\x86\Release\Problem81.application
+C:\Users\Fabiana\Documents\Visual Studio 2010\Projects\Problem81\Problem81\obj\x86\Release\Problem81.exe
+C:\Users\Fabiana\Documents\Visual Studio 2010\Projects\Problem81\Problem81\obj\x86\Release\Problem81.pdb

@@ -1,0 +1,9 @@
+c:\users\fabiana\documents\visual studio 2010\Projects\Problem81\Problem81\bin\Debug\Problem81.exe
+c:\users\fabiana\documents\visual studio 2010\Projects\Problem81\Problem81\bin\Debug\Problem81.pdb
+c:\users\fabiana\documents\visual studio 2010\Projects\Problem81\Problem81\obj\x86\Debug\Problem81.exe
+c:\users\fabiana\documents\visual studio 2010\Projects\Problem81\Problem81\obj\x86\Debug\Problem81.pdb
+C:\Users\Fabiana\Documents\Visual Studio 2010\Projects\Problem81\Problem81\obj\x86\Debug\Problem81.csprojResolveAssemblyReference.cache
+C:\Users\Fabiana\Documents\Visual Studio 2010\Projects\Problem81\Problem81\bin\Debug\Problem81.exe.manifest
+C:\Users\Fabiana\Documents\Visual Studio 2010\Projects\Problem81\Problem81\bin\Debug\Problem81.application
+C:\Users\Fabiana\Documents\Visual Studio 2010\Projects\Problem81\Problem81\obj\x86\Debug\Problem81.exe.manifest
+C:\Users\Fabiana\Documents\Visual Studio 2010\Projects\Problem81\Problem81\obj\x86\Debug\Problem81.application
