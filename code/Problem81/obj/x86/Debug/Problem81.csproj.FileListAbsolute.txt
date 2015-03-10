@@ -7,3 +7,5 @@ C:\Users\Fabiana\Documents\Visual Studio 2010\Projects\Problem81\Problem81\bin\D
 C:\Users\Fabiana\Documents\Visual Studio 2010\Projects\Problem81\Problem81\bin\Debug\Problem81.application
 C:\Users\Fabiana\Documents\Visual Studio 2010\Projects\Problem81\Problem81\obj\x86\Debug\Problem81.exe.manifest
 C:\Users\Fabiana\Documents\Visual Studio 2010\Projects\Problem81\Problem81\obj\x86\Debug\Problem81.application
+C:\Users\Fabiana\Documents\GitHub\projectEuler\code\Problem81\obj\x86\Debug\Problem81.exe
+C:\Users\Fabiana\Documents\GitHub\projectEuler\code\Problem81\obj\x86\Debug\Problem81.pdb

@@ -11,32 +11,22 @@ namespace Problem81
         static void Main()
         {
             // Open File
-            var matrix = loadMatrix("C:/problem81/p081_matrix.txt");
-
-            // 
-            int size = matrix.GetLength(0);
-
-            // bottom and right solution
-            for (int i = size - 2; i >= 0; i--)
-            {
-                matrix[size - 1, i] += matrix[size - 1, i + 1];
-                matrix[i, size - 1] += matrix[i + 1, size - 1];
-
-            }
-
-            for (int i = size - 2; i >= 0; i--)
-            {
-                for (int j = size - 2; j >= 0; j--)
-                {
-                    matrix[i, j] += Math.Min(matrix[i + 1, j], matrix[i, j + 1]);
-                }
-            }
-
-            // Show the answer
-            Console.Write("Answer:" + matrix[0, 0].ToString());
-            Console.ReadLine();  
-
+            string path = "C:/problem81/p081_matrix.txt";
             
+            if (File.Exists(path))
+            {
+                var matrix = loadMatrix(path);
+
+                solveProblem(matrix);
+        
+            }
+            else
+            {
+                // Show message
+                Console.Write("You must have the file `C:/problem81/p081_matrix.txt`.");
+                Console.ReadLine();
+
+            }
         }
 
         /// <summary>
@@ -64,6 +54,36 @@ namespace Problem81
                 }
             }
             return Matrix;
+
+        }
+
+        /// <summary>
+        /// Solve the problem
+        /// </summary>
+        /// <param name="matrix"></param>
+        static void solveProblem(int[,] matrix)
+        {
+            int size = matrix.GetLength(0);
+
+            // bottom and right solution
+            for (int i = size - 2; i >= 0; i--)
+            {
+                matrix[size - 1, i] += matrix[size - 1, i + 1];
+                matrix[i, size - 1] += matrix[i + 1, size - 1];
+
+            }
+
+            for (int i = size - 2; i >= 0; i--)
+            {
+                for (int j = size - 2; j >= 0; j--)
+                {
+                    matrix[i, j] += Math.Min(matrix[i + 1, j], matrix[i, j + 1]);
+                }
+            }
+
+            // Show the answer
+            Console.Write("Answer:" + matrix[0, 0].ToString());
+            Console.ReadLine();
 
         }
     }
